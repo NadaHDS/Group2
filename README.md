@@ -1,4 +1,6 @@
 # Hospital Database Project
+[[_TOC_]]
+
 ## Overview
 This project involved the creation of a hospital database for managing information about hospitals, doctors, patients, medications, prescriptions, diseases, appointments and lab results. The database was developed by our team using both MySQL and MS Access.
 ## Repository Contents
