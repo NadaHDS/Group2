@@ -55,8 +55,8 @@ git clone https://github.com/NadaHDS/Group2.git
 ```bash
 mysql -u [username] -p < hospital_database_backup.sql
 ```
-4. Open the .accdb file in Microsoft Access to explore the database.
-5. Run the SQL scripts to interact with and analyse the dataset.
+3. Open the .accdb file in Microsoft Access to explore the database.
+4. Run the SQL scripts to interact with and analyse the dataset.
 ## Team members
 List of contributors:
 1. Chetak Chahal
