@@ -2,19 +2,21 @@
 ## Overview
 This project involved the creation of a hospital database for managing information about hospitals, doctors, patients, medications, prescriptions, diseases, appointments and lab results. The database was developed by our team using both MySQL and MS Access.
 ## Repository Contents
-- **SQL Scripts/**: Contains all SQL scripts for creating the database, inserting data, and querying.
+- **MySQL Platform/**: Contains all SQL scripts for creating the database, inserting data, and querying.
   - `hospital_database_backup.sql`: Script to create the hospital database.
   - `Code_tables_hospital_database.sql`: Script that creates all the tables and populates them with data, including random data generated for doctors, patients, prescriptions, etc.
   - `querycode_hospital_database.sql`: Script that contains all SQL queries.
 
-- **MS Access/**: Includes ‘.accdb’ file, with the database being created in Microsoft Access.
+- **MS Access Platform/**: Includes all tables and '.accdb' files, with the database created in Microsoft Access.
 
-- **ERD Plan/**: Planning Document - Entity Relationship Diagram (ERD).
+- **Entity Relationship Diagram/**: Planning documents, including two versions of the ERD.
   
 - **Team Portfolio/**: Contains information on teamwork, including:
   - Meeting agendas and minutes.
   - Action plan with milestones.
 
+- **README.md**: This file summarises our project and the key components.
+  
 - **GitHub Pages/**: File for a project page hosted on GitHub Pages.
 ## Features
 ### Database Structure
@@ -27,6 +29,9 @@ The database consists of the following tables:
 6. **Labtests**: Stores the lab results for individual patients, with each lab test being requested by a specific doctor.
 7. **prescriptions**: Stores 500 prescriptions that are associated with doctors, patients, medications and prescription dates.
 8. **appointments**: Records information about appointments scheduled between patients and doctors.
+### Entity Relationship Diagram (ERD)
+
+![Entity Relationship Diagram](Entity%20Relationship%20Diagram/Hospital%20DataBase_Entity%20Relationship%20Diagram.png)
 ### Key SQL Queries
 The database can support the following functions through SQL queries:
 - List all doctors based at a specific hospital.
@@ -41,5 +46,25 @@ The database can support the following functions through SQL queries:
 - List all appointments for a specific patient/doctor.
 ## GitHub Pages
 The GitHub webpage provides an overview of the project, including a description of relevant features and usage. Visit the page [here](https://nadahds.github.io/Group2/).
+## How to Use the Files
+1. Use the following command to clone the repository to your local machine:
+```bash
+git clone https://github.com/NadaHDS/Group2.git
+```
+2. Import the provided .sql file into your MySQL environment using:
+```bash
+mysql -u [username] -p < hospital_database_backup.sql
+```
+4. Open the .accdb file in Microsoft Access to explore the database.
+5. Run the SQL scripts to interact with and analyse the dataset.
+## Team members
+List of contributors:
+1. Chetak Chahal
+2. Dhia Dali
+3. Nick Aveyard
+4. Jiaqi Li
+5. Nada Bin Sebayel
 
-
+This system was collaboratively developed by our team through regular meetings and coordinated version control on GitHub. Each member contributed to different aspects of the project, such as database design, table creation, query development and documentation/ webpage production, etc.
+## Acknowledgements
+This project was developed under Group2 of the 'Computational Skills for Health and Life Sciences' module as part of the MSc Health Data Science programme at the University of Exeter. With special thanks to the module convenor, Professor Neil Vaughan, for his guidance and support.
